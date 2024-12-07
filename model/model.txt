@@ -1,0 +1,2 @@
+The .h5 and .tflite model for DeRMA project is available at the Google Drive Folders link below.
+https://drive.google.com/drive/folders/11Eribb8uOgfjy-i1q9P5Y2TqS02vwHyi?usp=drive_link
