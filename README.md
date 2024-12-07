@@ -25,12 +25,10 @@ DeRMA is a comprehensive skincare app that leverages advanced machine learning t
 
 <br>
 
-if you are interested in discussing this project issues with us, please contact us or send an email to c242-ps075@bangkit.academy
-
-## Documentation
-
-In our project is divided into four documentation.
-
-1. [Mobile Development](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Mobile-Development)
-2. [Machine Learning](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Machine-Learning)
-3. [Cloud Computing](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Cloud-Computing)
+## Repositories 📁
+You can check our repositories for each learning path in the tables below. Or you can just directly change the branch in this repository. The `Mobile-Development` branch is for the **Mobile Development** repository, the `Cloud-Computing` branch is for the **Cloud Computing** repository, and the `Machine-Learning` branch is for the **Machine Learning** repository.
+|   Learning Paths   |                                Link                                |
+| :----------------: | :----------------------------------------------------------------: |
+| Mobile Development | [Github](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Mobile-Development)       |
+|  Machine Learning  |  [Github](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Machine-Learning)       |
+|   Cloud Computing  |   [Github]](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Cloud-Computing)    |
