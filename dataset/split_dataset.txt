@@ -1,0 +1,7 @@
+This is splitted dataset for the CNN architecture model that we used in this project, open the following Google Drive Folders:
+
+Skin Disease Split Dataset
+https://drive.google.com/drive/folders/1NMP2zTfnXY1rWFeqkg0rIXVTMA3yG1cT?usp=drive_link
+
+Skin Type Split Dataset
+https://drive.google.com/drive/folders/1lzCgRV4qGDuLnbwOPGU-GGAQef_d6D3R?usp=drive_link
