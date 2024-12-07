@@ -34,8 +34,8 @@ Here are the library that used in this project
 2. Drop the dataset file into your own Google Drive folder (we suggested to create same directory path as in our notebooks)
 3. Install all of the library above or in the notebooks using pip into your Google Colab
 4. Open our notebook in Google Colab:
-   - [SkinDiseaseModel.ipynb]()
-   - [SkinTypeModel.ipynb]()
-   - [SkinCareProductRecommendationSystemModel.ipynb]()
-5. Run the notebook in Google Colab from library import, data preprocessing, until the model save and predict. For the Skin Disease and Skin Type model, we used tensorflow, so we saved it in .h5 format and then deploy it into .tflite format using tfliteconverter. For Skin Care Product Recommendation System model, we used python library, so in deployment stage we used FastAPI to deploy the model.
-6. Use the predict cell to predict the image or recommend the product that you want based on the skin type and skin disease in the model
+   - [SkinCareProductRecommendationSystemModel.ipynb](https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/Machine-Learning/notebooks/SkinCareRecommendationSystemModel.ipynb)
+   - [SkinDiseaseModel.ipynb](https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/Machine-Learning/notebooks/SkinDiseaseModel.ipynb)
+   - [SkinTypeModel.ipynb](https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/Machine-Learning/notebooks/SkinTypeModel.ipynb)
+6. Run the notebook in Google Colab from library import, data preprocessing, until the model save and predict. For the Skin Disease and Skin Type model, we used tensorflow, so we saved it in .h5 format and then deploy it into .tflite format using tfliteconverter. For Skin Care Product Recommendation System model, we used python library, so in deployment stage we used FastAPI to deploy the model.
+7. Use the predict cell to predict the image or recommend the product that you want based on the skin type and skin disease in the model
