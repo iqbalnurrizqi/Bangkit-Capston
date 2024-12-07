@@ -10,7 +10,7 @@ DeRMA is designed to address common skin health challenges by providing personal
 The machine learning used in this project is using Convolutional Neural Network-based Deep Learning Technology Multi-Label Classification Model as Skin Disease Analyzer and Multi-Class Classification Model as Skin-Type Analyzer with MobileNetV2 Pre-trained model as a backbone and fine tuning it. The third model, that is recommendation system model, we used python to develop it from scratch based on the Skin Disease and Skin Type Analyzer's outputs.
 
 ### Dataset
-We collect the dataset from Kaggle and Roboflow. Then, we clean the dataset and input it into [DeRMA Dataset]() so that it can be processed.
+We collect the dataset from Kaggle and Roboflow. Then, we clean the dataset and input it into [DeRMA Dataset](https://drive.google.com/drive/folders/1100X1-tn2Bd4RNML83QXukAO1cFYOc3n?usp=drive_link) so that it can be processed.
 
 
 ### Technologies
