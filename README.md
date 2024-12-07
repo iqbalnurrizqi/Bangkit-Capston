@@ -17,7 +17,7 @@ We collect the dataset from Kaggle and Roboflow. Then, we clean the dataset and 
 Here are the library that used in this project
 - kaggle
 - roboflow
-- beuutifulsoup (for skin care product dataset)
+- beautifulsoup (for skin care product dataset)
 -	numpy 
 -	pandas 
 -	shuutil
