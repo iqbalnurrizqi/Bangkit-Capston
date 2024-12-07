@@ -31,7 +31,6 @@ if you are interested in discussing this project issues with us, please contact 
 
 In our project is divided into four documentation.
 
-1. [Mobile Development]()
-2. [Machine Learning]()
-3. [Cloud Computing: Private API]()
-4. [Cloud Computing: Machine Learning Service]()
+1. [Mobile Development](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Mobile-Development)
+2. [Machine Learning](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Machine-Learning)
+3. [Cloud Computing](https://github.com/iqbalnurrizqi/Bangkit-Capstone/tree/Cloud-Computing)
