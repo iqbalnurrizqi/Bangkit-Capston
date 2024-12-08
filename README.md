@@ -1,13 +1,13 @@
 # C242-PS075 [DeRMA]
 
 <p align="center">
-  <img src="", width="" height="">
+  <img src="https://drive.google.com/file/d/1Cdnp2h5MLPGYvJmqTHfQIKfe5N8PVjdR/view?usp=sharing">
 </p>
 
 
 ## About The Project
 
-DeRMA is a comprehensive skincare app that leverages advanced machine learning to provide real-time skin analysis, diagnosing skin types (dry, sensitive, oily, combination) and common conditions like acne, blackheads, dark spots, enlarged pores, redness, and wrinkles. It stands out with features such as personalized skincare recommendations tailored to users' specific needs, referrals to dermatology clinics for professional consultations, and an analysis history that tracks skin progress over time—offering valuable insights rarely found in other apps. Free to use and accessible, DeRMA combines cutting-edge technology with a holistic approach to skin health management.
+DeRMA is a comprehensive skincare app that leverages advanced machine learning to provide real-time skin analysis, diagnosing skin types (dry, normal, oily, combination) and common conditions like acne, blackheads, dark spots, enlarged pores, redness, and wrinkles. It stands out with features such as personalized skincare recommendations tailored to users' specific needs, referrals to dermatology clinics for professional consultations, and an analysis history that tracks skin progress over time—offering valuable insights rarely found in other apps. Free to use and accessible, DeRMA combines cutting-edge technology with a holistic approach to skin health management.
 
 ## Team Members
 
