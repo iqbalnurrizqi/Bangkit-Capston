@@ -1,5 +1,6 @@
-
 # C242-PS075 [DeRMA: Dermatology Recognition and Management Aid] - Machine Learning
+
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/f1d225724ee9a3b6031678a4d49b39c2b0151140/assets/Github%20Background.png">
 
 ### Introduction
 
