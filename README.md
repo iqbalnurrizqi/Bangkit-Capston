@@ -1,7 +1,7 @@
 # C242-PS075 [DeRMA]
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1Cdnp2h5MLPGYvJmqTHfQIKfe5N8PVjdR/view?usp=sharing">
+  <img src="assets/Github Background.png">
 </p>
 
 
