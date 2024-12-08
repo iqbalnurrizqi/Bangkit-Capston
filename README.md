@@ -1,5 +1,7 @@
 # C242-PS075 [DeRMA: Dermatology Recognition and Management Aid] - Machine Learning
 
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/f1d225724ee9a3b6031678a4d49b39c2b0151140/assets/Github%20Background.png">
+
 ### Introduction
 
 The skincare and personal care market in Indonesia is experiencing remarkable growth, especially gen z generations. In 2021, the demand for skincare products in Indonesia surged by 70% compared to the previous year, driven by rising consumer awareness of skin health, and the influence of online sales channels. In 2024, Indonesia’s skincare market is projected to generate US$2.76 billion in revenue, with an annual growth rate (CAGR) of 3.70% from 2024 to 2029.  Despite this growth, many consumers face challenges in selecting suitable products due to limited knowledge about skin health. This statement is supported by evidence based on our idea validation and pre-research on 100 people that are male and female. 
