@@ -30,7 +30,58 @@ Here are the library that used in this project
 - ipython
 - sklearn
 
-### Workflow to Clone Our Project 
+You can follow this step to install the library with the 'requirements.txt' file:
+### Project Setup Guide
+
+This guide will help you set up the required environment to run the project. Make sure you have Python installed (preferably version 3.8 or later) and follow the steps below.
+
+#### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone <https://github.com/iqbalnurrizqi/Bangkit-Capstone.git>
+   cd <Bangkit-Capstone>
+   ```
+
+2. **Switch to the branch with `requirements.txt`**
+   ```bash
+   git checkout Machine-Learning
+   ```
+4. **Set up a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+5. **Install required libraries**
+   All required libraries are listed in `requirements.txt`. Use the following command to install them:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. **Verify the installation**
+   To ensure everything is installed correctly, try running the following command:
+   ```bash
+   python -c "import tensorflow, sklearn, numpy, matplotlib, pandas, seaborn, kaggle, roboflow, bs4; print('All libraries installed successfully!')"
+   ```
+
+### Additional Notes
+
+- **Using Kaggle API**: If you plan to use the Kaggle API to download datasets, make sure you set up your Kaggle API key:
+  1. Go to your Kaggle account settings: [https://www.kaggle.com/account](https://www.kaggle.com/account)
+  2. Scroll down to the API section and click `Create New API Token`.
+  3. Place the downloaded `kaggle.json` file in the `.kaggle` directory in your home folder:
+     ```bash
+     mkdir ~/.kaggle
+     mv /path/to/kaggle.json ~/.kaggle/
+     chmod 600 ~/.kaggle/kaggle.json
+     ```
+
+- **Using Roboflow**: To use Roboflow's API, ensure you have your API key. Follow the documentation on Roboflow for guidance: [Roboflow API Documentation](https://docs.roboflow.com/)
+
+If you encounter any issues, feel free to open an issue in this repository or reach out to the contributors.
+
+### Workflow to Replicate Our Project 
 1. Download the dataset from our Google Drive Dataset source
 2. Drop the dataset file into your own Google Drive folder (we suggested to create same directory path as in our notebooks)
 3. Install all of the library above or in the notebooks using pip into your Google Colab
