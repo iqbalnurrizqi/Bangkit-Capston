@@ -40,3 +40,17 @@ Here are the library that used in this project
    - [SkinTypeModel.ipynb](https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/Machine-Learning/notebooks/SkinTypeModel.ipynb)
 6. Run the notebook in Google Colab from library import, data preprocessing, until the model save and predict. For the Skin Disease and Skin Type model, we used tensorflow, so we saved it in .h5 format and then deploy it into .tflite format using tfliteconverter. For Skin Care Product Recommendation System model, we used python library, so in deployment stage we used FastAPI to deploy the model.
 7. Use the predict cell to predict the image or recommend the product that you want based on the skin type and skin disease in the model
+
+
+### Result
+Skin Disease Multilabel Classification Model
+Training Accuracy-Validation Accuracy
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Disease%20Model%20Result/skindiseasemodel_accuracy%20and%20val_accuracy%20evaluation.jpg">
+Training Loss-Validation Loss
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Disease%20Model%20Result/skindiseasemodel_loss%20and%20val_loss%20evaluation.jpg">
+
+Skin Type Multiclass Classification Model
+Training Accuracy-Validation Accuracy
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Type%20Model%20Result/skintypemodel_accuracy%20and%20val_accuracy%20evaluation.jpg">
+Training Loss-Validation Loss
+<img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Type%20Model%20Result/skintypemodel_loss%20and%20val_loss%20evaluation.jpg">
