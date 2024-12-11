@@ -30,7 +30,7 @@ Here are the library that used in this project
 - ipython
 - sklearn
 
-You can follow this step to install the library with the 'requirements.txt' file:
+You can follow this step to install the library with the `requirements.txt` file:
 ### Project Setup Guide
 
 This guide will help you set up the required environment to run the project. Make sure you have Python installed (preferably version 3.8 or later) and follow the steps below.
