@@ -30,7 +30,7 @@ Here are the library that used in this project
 - ipython
 - sklearn
 
-You can follow this step to install the library with the `requirements.txt` file:
+You can follow this step to install the library in the google colab with the `requirements.txt` file:
 ### Project Setup Guide
 
 This guide will help you set up the required environment to run the project. Make sure you have Python installed (preferably version 3.8 or later) and follow the steps below.
@@ -39,30 +39,24 @@ This guide will help you set up the required environment to run the project. Mak
 
 1. **Clone the repository**
    ```bash
-   git clone <https://github.com/iqbalnurrizqi/Bangkit-Capstone.git>
-   cd <Bangkit-Capstone>
+   !git clone https://github.com/iqbalnurrizqi/Bangkit-Capstone.git
+   %cd Bangkit-Capstone
    ```
 
 2. **Switch to the branch with `requirements.txt`**
    ```bash
-   git checkout Machine-Learning
+   !git checkout Machine-Learning
    ```
-4. **Set up a virtual environment (optional but recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   ```
-
-5. **Install required libraries**
+3. **Install required libraries**
    All required libraries are listed in `requirements.txt`. Use the following command to install them:
    ```bash
-   pip install -r requirements.txt
+   !pip install -r requirements.txt
    ```
 
-6. **Verify the installation**
+4. **Verify the installation**
    To ensure everything is installed correctly, try running the following command:
    ```bash
-   python -c "import tensorflow, sklearn, numpy, matplotlib, pandas, seaborn, kaggle, roboflow, bs4; print('All libraries installed successfully!')"
+   !python -c "import tensorflow, sklearn, numpy, matplotlib, pandas, seaborn, kaggle, roboflow, bs4; print('All libraries installed successfully!')"
    ```
 
 ### Additional Notes
