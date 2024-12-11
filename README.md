@@ -43,14 +43,15 @@ Here are the library that used in this project
 
 
 ### Result
-Skin Disease Multilabel Classification Model
-Training Accuracy-Validation Accuracy
+Skin Disease Multilabel Classification Model <br>
+Training Accuracy-Validation Accuracy <br>
 <img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Disease%20Model%20Result/skindiseasemodel_accuracy%20and%20val_accuracy%20evaluation.jpg">
-Training Loss-Validation Loss
+Training Loss-Validation Loss <br>
 <img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Disease%20Model%20Result/skindiseasemodel_loss%20and%20val_loss%20evaluation.jpg">
+<br>
 
-Skin Type Multiclass Classification Model
-Training Accuracy-Validation Accuracy
+Skin Type Multiclass Classification Model <br>
+Training Accuracy-Validation Accuracy <br>
 <img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Type%20Model%20Result/skintypemodel_accuracy%20and%20val_accuracy%20evaluation.jpg">
-Training Loss-Validation Loss
+Training Loss-Validation Loss <br>
 <img src="https://github.com/iqbalnurrizqi/Bangkit-Capstone/blob/8863cf1f3ead26b5a982638138d2ac9cef814f8e/result/Skin%20Type%20Model%20Result/skintypemodel_loss%20and%20val_loss%20evaluation.jpg">
