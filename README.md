@@ -1,12 +1,11 @@
-# C242-PS075 [DeRMA]
-
+# C242-PS075 [DeRMA: Your Skin, Your Way]
+## Health Innovation: Empowering Vulnerable Communities for Health and Well-being
 <p align="center">
   <img src="assets/Github Background.png">
 </p>
 
 
 ## About The Project
-
 DeRMA is a comprehensive skincare app that leverages advanced machine learning to provide real-time skin analysis, diagnosing skin types (dry, normal, oily, combination) and common conditions like acne, blackheads, dark spots, enlarged pores, redness, and wrinkles. It stands out with features such as personalized skincare recommendations tailored to users' specific needs, referrals to dermatology clinics for professional consultations, and an analysis history that tracks skin progress over time—offering valuable insights rarely found in other apps. Free to use and accessible, DeRMA combines cutting-edge technology with a holistic approach to skin health management.
 
 ## Team Members
