@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.settings.EditProfileFragment"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/rounded_corner_background">
+
+            <!-- Profile Picture -->
+            <ImageView
+                android:id="@+id/iv_profile_picture"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_placeholder"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_background"
+                android:elevation="4dp"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_change_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Change Picture"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Name Input -->
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name"
+                android:background="@drawable/rounded_edittext_background"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="?attr/colorOnSurface"
+                android:textColorHint="?attr/colorOnSecondary" />
+
+            <!-- Skin Type -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Skin Type"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="?attr/colorOnSecondary" />
+
+            <RadioGroup
+                android:id="@+id/rg_skin_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:background="@drawable/rounded_corner_background"
+                android:padding="12dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Skin Issues -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Skin Issues"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="?attr/colorOnSecondary" />
+
+            <LinearLayout
+                android:id="@+id/checkbox_skin_issue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_corner_background"
+                android:padding="12dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Treatment Goal -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment Goal"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="?attr/colorOnSecondary" />
+
+            <EditText
+                android:id="@+id/et_treatment_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your treatment goal"
+                android:background="@drawable/rounded_edittext_background"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="?attr/colorOnSurface"
+                android:textColorHint="?attr/colorOnSurface" />
+
+            <!-- Update Button -->
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"
+                android:elevation="4dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

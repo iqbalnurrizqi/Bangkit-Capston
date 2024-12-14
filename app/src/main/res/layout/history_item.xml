@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOnSurface"
+    android:padding="12dp"
+    app:background="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Image Section -->
+        <ImageView
+            android:id="@+id/iv_analysis_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/ic_placeholder" />
+
+        <!-- Text Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_skin_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                android:text="Skin Type"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tv_issues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issues: Acne, Dryness"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="?attr/colorOnSurface"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tv_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Analyzed at: 2024-12-09 14:30"
+                android:textColor="?attr/colorOnSurface"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

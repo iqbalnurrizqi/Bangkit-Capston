@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="8dp">
+
+    <!-- Background Layer -->
+    <TextView
+        android:id="@+id/tv_disease_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/progress_shape_background"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- Foreground (Dynamic Progress) -->
+    <TextView
+        android:id="@+id/tv_disease_foreground"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/progress_shape_foreground"
+        android:layout_alignStart="@id/tv_disease_background"
+        android:layout_alignTop="@id/tv_disease_background" />
+
+    <!-- Text for Disease Progress -->
+    <TextView
+        android:id="@+id/tv_disease_progress_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="70% (Acne)"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+</RelativeLayout>

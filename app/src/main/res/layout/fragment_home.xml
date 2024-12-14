@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.main.home.HomeFragment">
+
+    <!-- ProgressBar for Loading -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Scrollable Content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Error Message -->
+            <TextView
+                android:id="@+id/errorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:visibility="gone"
+                android:text="Error message here"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Features Section -->
+            <TextView
+                android:id="@+id/featuresTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Features"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/featuresRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Recommended Section -->
+            <TextView
+                android:id="@+id/recommendedTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended Products"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recommendedRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Routines Section -->
+            <TextView
+                android:id="@+id/routinesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Routines"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/routinesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginHorizontal="8dp"
+    android:radius="8dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_clinic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clinic Name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/tv_clinic_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/tv_clinic_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open in Maps"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

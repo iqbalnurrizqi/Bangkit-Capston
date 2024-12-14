@@ -1,0 +1,48 @@
+[versions]
+agp = "8.7.3"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+tensorflowLite = "2.12.0"
+tensorflowLiteSupport = "0.4.3"
+tensorflowLiteMetadata = "0.4.3"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+navigationFragmentKtx = "2.8.4"
+navigationUiKtx = "2.8.4"
+viewpager2 = "1.1.0"
+tensorflowLiteGpu = "2.3.0"
+dagger = "2.49"
+hiltCompiler = "2.48"
+hiltWork = "1.2.0"
+hiltAndroidGradlePlugin = "2.51.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+tensorflow-lite = { module = "org.tensorflow:tensorflow-lite", version.ref = "tensorflowLite" }
+tensorflow-lite-support = { group = "org.tensorflow", name = "tensorflow-lite-support", version.ref = "tensorflowLiteSupport" }
+tensorflow-lite-metadata = { group = "org.tensorflow", name = "tensorflow-lite-metadata", version.ref = "tensorflowLiteMetadata" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
+tensorflow-lite-gpu = { group = "org.tensorflow", name = "tensorflow-lite-gpu", version.ref = "tensorflowLiteGpu" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "dagger" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltCompiler" }
+androidx-hilt-work-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltWork" }
+hilt-android-gradle-plugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "hiltAndroidGradlePlugin" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

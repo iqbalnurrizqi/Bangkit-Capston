@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment"
+    android:background="?attr/colorSurface">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle">
+
+            <!-- Profile Section -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/image_profile"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/ic_placeholder"
+                    android:contentDescription="Profile Picture"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/circle_background" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="User Name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnBackground" />
+            </LinearLayout>
+
+            <!-- Account Settings Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorSurface">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Account Settings"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <Button
+                        android:id="@+id/btn_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Profile"
+                        android:backgroundTint="?attr/colorPrimary"
+                        android:textColor="?attr/colorOnPrimary" />
+
+                    <Switch
+                        android:id="@+id/switch_push_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Push Notification"
+                        android:layout_marginTop="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <Switch
+                        android:id="@+id/switch_dark_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Mode"
+                        android:layout_marginTop="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Skin View Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorSurface">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skin View"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <TextView
+                        android:id="@+id/tv_skin_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Skin Type: Normal"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <TextView
+                        android:id="@+id/tv_skin_problems"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Skin Problems: Acne"
+                        android:layout_marginTop="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <TextView
+                        android:id="@+id/tv_treatment_goals"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Treatment Goals: Clear Skin"
+                        android:layout_marginTop="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- More Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorSurface">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="More"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <Button
+                        android:id="@+id/btn_about_us"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:backgroundTint="?attr/colorPrimary"
+                        android:textColor="?attr/colorOnPrimary" />
+
+                    <Button
+                        android:id="@+id/btn_privacy_policy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Privacy Policy"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="?attr/colorPrimary"
+                        android:textColor="?attr/colorOnPrimary" />
+
+                    <Button
+                        android:id="@+id/btn_terms_conditions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terms and Conditions"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="?attr/colorPrimary"
+                        android:textColor="?attr/colorOnPrimary" />
+
+                    <Button
+                        android:id="@+id/btn_feedback_support"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Feedback and Support"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="?attr/colorPrimary"
+                        android:textColor="?attr/colorOnPrimary" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

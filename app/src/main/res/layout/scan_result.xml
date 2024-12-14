@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Gambar hasil scan (rasio 1:1) -->
+        <ImageView
+            android:id="@+id/iv_scanned_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Scanned Image"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="1.0"
+            tools:srcCompat="@drawable/ic_placeholder" />
+
+        <!-- Title Section "Skin Type" -->
+        <TextView
+            android:id="@+id/tv_skin_type_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Skin Type"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/iv_scanned_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Progress Bar for Skin Type -->
+        <RelativeLayout
+            android:id="@+id/rl_skin_type_progress"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_skin_type_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Background Layer -->
+            <TextView
+                android:id="@+id/tv_skin_type_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/progress_shape_background"
+                android:gravity="center"
+                android:text=""
+                android:textSize="14sp"
+                android:padding="8dp" />
+
+            <!-- Foreground (Dynamic) Progress -->
+            <TextView
+                android:id="@+id/tv_skin_type_foreground"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/progress_shape_foreground"
+                android:gravity="center"
+                android:layout_alignStart="@id/tv_skin_type_background"
+                android:layout_alignTop="@id/tv_skin_type_background" />
+
+            <!-- Text for Percentage and Type -->
+            <TextView
+                android:id="@+id/tv_skin_type_progress_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="70% (Oily)"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <!-- Title Section "Skin Disease" -->
+        <TextView
+            android:id="@+id/tv_skin_disease_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Skin Disease"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/rl_skin_type_progress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- RecyclerView untuk daftar penyakit kulit -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_skin_disease_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_skin_disease_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Button to View Recommended Products -->
+        <Button
+            android:id="@+id/btn_view_recommendations"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View Recommended Products"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/rv_skin_disease_progress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.8" />
+
+        <!-- Button to Save to History -->
+        <Button
+            android:id="@+id/btn_save_to_history"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Save to History"
+            android:backgroundTint="?attr/colorSurface"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/btn_view_recommendations"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.8" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

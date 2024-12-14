@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#FFEEEEEE</color>
+    <color name="red">#FFFF0000</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="gray">#FF9E9E9E</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="buttonPrimaryColor">#6200EE</color>
+    <color name="buttonSecondaryColor">#03DAC5</color>
+    <color name="buttonAccentColor">#FF5722</color>
+    <color name="backgroundCardColor">#FFFFFF</color>
+    <color name="editTextBackgroundColor">#F5F5F5</color>
+    <color name="borderColor">#DDDDDD</color>
+    <color name="textPrimaryColor">#F5F5F5</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="lavender">#E6E6FA</color>
+
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_light">#333333</color>
+
+    <color name="primary_light">#B39DDB</color> <!-- Lavender accent -->
+
+    <color name="card_light">#F5F5F5</color>
+
+    <color name="lavender_dark">#2E2E4E</color>
+    <color name="purple_700">#6200EE</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="text_dark">#FFFFFF</color>
+    <color name="primary_dark">#121212</color>
+    <color name="card_dark">#1E1E1E</color>
+</resources>

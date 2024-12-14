@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="16dp" />
+    <solid android:color="?attr/colorSurfaceVariant" />
+    <padding
+        android:top="16dp"
+        android:bottom="16dp"
+        android:left="16dp"
+        android:right="16dp" />
+    <elevation android:shadowColor="#40000000" android:shadowDx="0" android:shadowDy="4" android:shadowRadius="8"/>
+</shape>

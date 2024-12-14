@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Image for feature -->
+        <ImageView
+            android:id="@+id/featureImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_placeholder"
+            android:contentDescription="feature_image" />
+
+        <!-- Title for feature -->
+        <TextView
+            android:id="@+id/featureName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Feature Name"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="?attr/colorOnPrimary"
+            android:gravity="center" />
+
+        <!-- Description for feature -->
+        <TextView
+            android:id="@+id/featureDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Feature Description"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

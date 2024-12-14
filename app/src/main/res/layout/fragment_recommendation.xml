@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?attr/colorSurface"
+    tools:context=".ui.result.RecommendationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_recommendation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personalized Recommendations"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="16dp" />
+
+        <!-- RecyclerView for Products -->
+        <TextView
+            android:id="@+id/tv_products_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended Products"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="?attr/colorOnSurface" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recommended_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- RecyclerView for Clinics -->
+        <TextView
+            android:id="@+id/tv_clinics_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended Clinics"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="?attr/colorOnSurface" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recommended_clinics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
